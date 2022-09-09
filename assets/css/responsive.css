@@ -1,0 +1,622 @@
+@media screen and (max-width: 1199px) {
+  .hero-title {
+    font-size: 38px;
+  }
+  .work-talent-text h3 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .work-busines-tab:hover .work-busines-text h3,
+  .work-busines-text h3 {
+    font-size: 36px;
+    line-height: 38px;
+  }
+  .work-carear-bold-text h2 {
+    font-size: 42px;
+  }
+  .work-career:hover .work-carear-bold-text h2 {
+    font-size: 32px;
+  }
+  .works-graphic h3 a {
+    font-size: 18px;
+  }
+  /* GRAPHIC PAGE */
+  .gr-title {
+    font-size: 90px;
+  }
+  .gr-ui h2 {
+    font-size: 88px;
+    bottom: 80px;
+    right: -45px;
+  }
+  .gr-package h2 {
+    font-size: 58px;
+    bottom: 10px;
+    left: -10px;
+  }
+  .gr-logo h2 {
+    font-size: 68px;
+    bottom: 10px;
+    left: -10px;
+  }
+  .gr-fashion h2 {
+    font-size: 78px;
+    bottom: 15px;
+    left: 0px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .hero-title {
+    font-size: 32px;
+  }
+  .hero-pragrap {
+    font-size: 18px;
+  }
+  .work-title {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+  .work-talent-title {
+    font-size: 22px;
+  }
+  .work-busines-titile {
+    font-size: 22px;
+  }
+  .work-talent-title::after {
+    width: calc(100% - 150px);
+  }
+  .work-talent-text h3 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .work-busines-tab:hover .work-busines-text h3,
+  .work-busines-text h3 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .work-career:hover .work-career-tab h3,
+  .work-career-text h3 {
+    font-size: 52px;
+    line-height: 46px;
+  }
+  .works-items {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .work-carear-bold-text h2 {
+    margin-left: -42px;
+  }
+  .whyus-pragrap {
+    font-size: 22px;
+    width: 100%;
+  }
+  .section-title {
+    font-size: 72px;
+  }
+  /* GRAPHIC */
+  .gr-bottom {
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+  }
+  .gr-interior h2 {
+    font-size: 78px;
+    top: 10px;
+    left: 0;
+  }
+  .gr-ui h2 {
+    font-size: 68px;
+    bottom: 80px;
+    right: -40px;
+  }
+  .gr-package h2 {
+    font-size: 76px;
+    bottom: 10px;
+    left: -10px;
+  }
+  .gr-logo h2 {
+    font-size: 76px;
+    line-height: 1;
+    bottom: 10px;
+    left: -10px;
+  }
+  .work-career {
+    grid-template-columns: auto 145px;
+  }
+}
+@media screen and (min-width: 768px) {
+  nav .hamburger {
+    display: none;
+    position: relative;
+    z-index: 99999;
+  }
+  .header-content nav ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  #grItems {
+    padding-bottom: 70px;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav .hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header-content nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 100px;
+    top: 0;
+    background: #000;
+    visibility: hidden;
+    opacity: 0;
+    row-gap: 20px;
+    -webkit-transition: 0.4s all ease;
+    -o-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+  }
+  .header-content nav.active ul {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    bottom: 0;
+  }
+  .header-content nav ul li a {
+    color: #f3ca00;
+  }
+  .header-content nav ul li a:focus,
+  .header-content nav ul li a:hover {
+    color: #fff;
+  }
+  .hero-title {
+    font-size: 24px;
+  }
+  .hero-content-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .hero-pragrap {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+  .hero-form-btn {
+    padding: 10px 20px;
+  }
+  #work {
+    padding: 50px 0;
+  }
+  .work-title {
+    font-size: 20px;
+  }
+  .work-talent-title {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .work-busines-titile,
+  .work-carear-bold-text,
+  .work-content-carear::after,
+  .work-talent-tab::before,
+  .work-talent-title::after {
+    display: none;
+  }
+  .work-area,
+  .work-career {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .work-career,
+  .work-content {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .work-content {
+    padding-bottom: 0px;
+  }
+  .work-career-tab h3,
+  .work-busines-text h3,
+  .work-talent-text h3 {
+    opacity: 1;
+    visibility: visible;
+  }
+  .work-career:hover .work-career-tab::after,
+  .work-career-tab::after {
+    height: 168px;
+    top: inherit;
+    width: 100%;
+    bottom: 0;
+  }
+  .work-busines-tab:hover::after,
+  .work-busines-tab::after {
+    width: 55%;
+    height: 80%;
+    bottom: 20%;
+  }
+  .work-busines-tab:hover .work-busines-text h3,
+  .work-busines-text h3 {
+    display: block;
+    width: 60%;
+    line-height: 30px;
+    left: 42%;
+    font-size: 34px;
+  }
+  .work-content-carear {
+    padding-right: 0px;
+  }
+  .work-talent-tab:hover .work-talent-text h3,
+  .work-talent-text h3 {
+    top: 80%;
+    height: 20% !important;
+  }
+  .work-talent-tab:hover::after,
+  .work-talent-tab::after {
+    width: 100%;
+    height: 20% !important;
+  }
+  .work-talent-tab::after {
+    height: 20%;
+    width: 100%;
+  }
+  .works-items {
+    display: block;
+  }
+  .work-talent-in {
+    position: inherit;
+    font-size: 64px;
+    line-height: 62px;
+    padding: 20px;
+    transform: translate(0px, 35px);
+  }
+  .works-graphic::after,
+  .works-sales::after,
+  .works-email::after,
+  .works-produc::after {
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+  }
+  .works-items h2,
+  .works-items h3,
+  .works-items h3 a {
+    opacity: 1;
+    visibility: visible;
+  }
+  .works-items:hover .work-talent-in {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  .works-sales h2,
+  .works-graphic h2 {
+    font-size: 76px;
+    line-height: 76px;
+  }
+  .works-graphic h3 a {
+    font-size: 16px;
+    column-gap: 10px;
+  }
+  .works-email h2 {
+    font-size: 82px;
+    font-family: var(--titile-font);
+    font-weight: 900;
+  }
+  .whyus-effect,
+  .whyus-logo-2 img {
+    height: 350px;
+  }
+  .whyus-effect:hover .whyus-logo-1 svg {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .whyus-effect:hover .whyus-logo-2 img {
+    opacity: 1;
+    visibility: visible;
+    height: 350px;
+  }
+  .whyus-effect:hover::after {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .footer-cp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-bottom: 40px;
+  }
+  .hero-form-btn {
+    width: 85px;
+  }
+  /* GRAPHIC */
+  .gr-bottom,
+  .gr-top {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .gr-bottom {
+    margin-top: 0;
+  }
+  .gr-title {
+    font-size: 70px;
+    padding-bottom: 30px;
+  }
+  .footer-cp {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .footer-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .footer-menu ul {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-top: 10px;
+  }
+  .addUser button {
+    display: none;
+  }
+  .addUser span {
+    display: block;
+  }
+  .work-busines-img img {
+    height: 643px;
+    object-fit: cover;
+  }
+  .work-career-tab,
+  .work-busines-tab,
+  .work-talent-tab {
+    position: relative;
+    height: 643px;
+  }
+  .work-career:hover .work-career-tab h3,
+  .work-career-tab h3 {
+    top: inherit;
+    bottom: 0;
+    height: 168px;
+    line-height: 24px;
+    font-size: 22px;
+    padding-left: 13px;
+    text-transform: capitalize;
+    font-weight: lighter;
+  }
+  .works-items-left {
+    margin-top: 105px;
+    display: block;
+  }
+  .work-career {
+    height: 643px;
+  }
+  .work-career-img img {
+    height: 643px;
+    object-fit: cover;
+  }
+  .works-items-right {
+    display: block;
+  }
+  .works-graphic {
+    height: 332px;
+  }
+  .works-sales {
+    height: 246px;
+  }
+  .works-email {
+    height: 213px;
+  }
+  .works-produc {
+    height: 375px;
+  }
+  .works-produc h2 {
+    font-size: 46px;
+    line-height: 46px;
+  }
+  .section-title {
+    font-size: 70px;
+  }
+  #ajax-message  button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero-section {
+    height: 501px;
+  }
+  header {
+    background: transparent;
+  }
+  .hero-content-text,
+  .hero-content,
+  .hero-section .container {
+    height: 100%;
+  }
+  .hero-title {
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .hero-pragrap {
+    font-size: 17px;
+  }
+  form.hero-form-content {
+    width: 320px;
+  }
+  form.hero-form-content input {
+    width: auto;
+  }
+
+  #grItems .container,
+  #work .container,
+  #whyUs .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .whyus-pragrap {
+    padding: 0 20px;
+  }
+  .contact-title {
+    font-size: 32px;
+  }
+  .input-control button {
+    width: 100%;
+  }
+  .graphic-pg {
+    padding: 0;
+    padding-top: 210px;
+  }
+  .work-talent-title {
+    font-size: 29px;
+    font-weight: normal;
+  }
+  #work {
+    padding-top: 30px;
+  }
+  .work-title {
+    font-size: 15px;
+  }
+  .work-talent-title {
+    margin-top: 22px;
+  }
+  .work-talent-img img {
+    height: 630px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .work-talent-tab:hover::after,
+  .work-talent-tab::after {
+    height: 157px !important;
+    width: 100%;
+  }
+  .work-talent-tab:hover .work-talent-text h3,
+  .work-talent-text h3 {
+    top: inherit;
+    bottom: 0;
+    padding: 15px 10px !important;
+    height: 157px !important;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: var(--primary-font);
+  }
+  .work-busines {
+    height: 625px;
+  }
+  .work-busines-img img {
+    height: 625px;
+    object-fit: cover;
+  }
+  .work-busines-tab:hover::after,
+  .work-busines-tab::after {
+    width: 258px;
+    bottom: inherit;
+    top: 0;
+    height: 340px;
+  }
+  .work-busines-tab:hover .work-busines-text h3,
+  .work-busines-text h3 {
+    font-size: 24px;
+    padding: 17px;
+    line-height: 24px;
+    height: 312px;
+    width: 260px;
+    left: inherit;
+    right: 0;
+  }
+  .logo a svg,
+  .logo a img {
+    height: 50px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hero-title br {
+    display: none;
+  }
+  .whyus-text {
+    padding-top: 0px;
+  }
+  .whyus-pragrap {
+    font-size: 18px;
+    width: 100%;
+  }
+  .footer-menu h3,
+  .footer-cp p,
+  .footer-cp p a {
+    font-size: 16px;
+  }
+  .hero-section {
+    background-position: -185px -2px;
+    background-size: cover;
+  }
+  .work-talent-tab:hover .work-talent-text h3,
+  .work-talent-text h3 {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .section-title {
+    font-size: 62px;
+  }
+  .works-sales h2,
+  .works-graphic h2 {
+    font-size: 70px;
+    line-height: 76px;
+  }
+  .works-produc h2 {
+    font-size: 44px;
+    line-height: 46px;
+  }
+  form.hero-form-content {
+    width: auto;
+  }
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 380px) {
+  form.hero-form-content input {
+    width: 190px;
+    font-size: 14px;
+  }
+  .hero-form-btn {
+    width: 80px;
+    font-size: 14px;
+  }
+}
