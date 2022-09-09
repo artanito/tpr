@@ -677,16 +677,16 @@ form.hero-form-content {
   align-items: flex-end;
 }
 .works-graphic::after {
-  background: #d5440b;
+  background: #DF6C5F;
 }
 .works-sales::after {
-  background: #0032ff;
+  background: #78BFC6;
 }
 .works-email::after {
-  background: #ffec00;
+  background: #F2E819;
 }
 .works-produc::after {
-  background: #1ed760;
+  background: #24827C;
 }
 .works-graphic::after,
 .works-sales::after,
